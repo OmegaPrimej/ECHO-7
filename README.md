@@ -1,2 +1,2 @@
-# ECHO-7
+# ECHO-7 Legacy
 DREAM CLASS RNN
