@@ -1,3 +1,26 @@
-Django>=3.0,<4.0
-djangorestframework>=3.11,<4.0
-pillow>=7.0,<8.0
+Here is an example of a `requirements.txt` file for a Django project:
+
+```
+Django>=3.2,<4.0
+djangorestframework>=3.12,<4.0
+pillow>=8.2,<9.0
+python-decouple>=3.4,<4.0
+pytz>=2021.3,<2022.0
+sqlparse>=0.4,<0.5
+```
+
+This file specifies the following dependencies:
+
+- Django (version 3.2 or higher, but less than 4.0)
+- Django Rest Framework (version 3.12 or higher, but less than 4.0)
+- Pillow (version 8.2 or higher, but less than 9.0)
+- Python Decouple (version 3.4 or higher, but less than 4.0)
+- Pytz (version 2021.3 or higher, but less than 2022.0)
+- Sqlparse (version 0.4 or higher, but less than 0.5)
+
+To create this file, you can use the following command:
+
+```
+pip freeze > requirements.txt
+```
+
